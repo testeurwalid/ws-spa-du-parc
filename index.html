@@ -1,0 +1,344 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="WebStudio SiteGen 8.2.0"><title>Spa du parc — hammam à Mohammedia</title><meta name="description" content="Un moment de calme, des gestes précis, et une atmosphère pensée dans les moindres détails."><meta property="og:title" content="Spa du parc — hammam à Mohammedia"><meta property="og:description" content="Un moment de calme, des gestes précis, et une atmosphère pensée dans les moindres détails."><meta property="og:image" content="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepS4fwWIsKukOMnOIVop6cySRQsD_XE_YM0ciUHa1DRQ-3xqwBPOmT6QoOeWOSGU-lPY60oMATzbwJAlxeNM7D7TiIcAcrU3mRmFrUaxhpRNADqddxQrN8s87mwHL87Po452djN7ZbjrY4D=w1200-h800-p-k-no"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><style>@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap");</style><style>:root{--bg:#0F1613;--fg:#F5F0EE;--mut:rgba(245,240,238,0.45);--line:rgba(42,170,126,0.18);--acc:#2AAA7E;--acc2:#1A8661;--card:rgba(255,255,255,0.04);--fh:'Playfair Display', ui-serif, Georgia, serif;--fb:'Lato', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;--r:22px;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--fb);-webkit-font-smoothing:antialiased}
+
+header{position:fixed;inset:0 0 auto 0;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 6vw;z-index:60;transition:all .25s}
+header.sc{background:rgba(255,255,255,.55);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.logo{font-family:var(--fh);text-decoration:none;font-size:18px}
+.burger{display:none;gap:6px;flex-direction:column;background:transparent;border:0;padding:8px;cursor:pointer}
+.burger span{width:22px;height:2px;background:var(--fg);border-radius:2px;opacity:.8}
+.nav{display:flex;align-items:center;gap:12px}
+.nav a{text-decoration:none;font-size:12px;color:var(--mut);padding:10px 10px;border-radius:999px;transition:all .2s}
+.nav a:hover{color:var(--fg);background:rgba(0,0,0,.04)}
+.nav .navcta{background:var(--acc);color:#fff;font-weight:800}
+
+.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;padding:118px 6vw 56px;position:relative;overflow:hidden}
+.blob{position:absolute;inset:auto -180px -180px auto;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle at 30% 30%, rgba(210,164,106,.42), transparent 60%), radial-gradient(circle at 60% 60%, rgba(31,109,107,.32), transparent 55%);filter:blur(2px);opacity:.85}
+.himg{border-radius:26px;border:1px solid var(--line);overflow:hidden;box-shadow:0 28px 90px rgba(0,0,0,.12);background:#ddd;min-height:440px}
+.himg img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02)}
+.hcopy{max-width:58ch}
+.k{letter-spacing:.22em;text-transform:uppercase;font-size:12px;color:var(--mut)}
+.h1{font-family:var(--fh);font-size:clamp(42px,5vw,70px);line-height:1.02;margin:14px 0 14px}
+.sub{color:var(--mut);line-height:1.85;font-size:15px}
+
+.book{background:rgba(255,255,255,.72);backdrop-filter:blur(14px);border:1px solid var(--line);border-radius:26px;padding:18px;box-shadow:0 24px 80px rgba(0,0,0,.10)}
+.book h3{margin:0 0 12px;font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:var(--fg)}
+.book label{display:block;font-size:11px;color:var(--mut);margin-top:10px}
+.book input,.book select{width:100%;padding:12px 12px;border-radius:14px;border:1px solid var(--line);background:#fff;font:inherit;margin-top:6px}
+.book button{margin-top:14px;width:100%;border:0;background:var(--acc);color:#fff;padding:12px 14px;border-radius:14px;font-weight:800;cursor:pointer}
+.book p{margin:10px 0 0;font-size:12px;color:var(--mut);line-height:1.6}
+
+section{padding:78px 6vw;border-top:1px solid var(--line)}
+.wrap{max-width:1240px;margin:0 auto}
+.h2{font-family:var(--fh);font-size:clamp(26px,3vw,44px);margin:0 0 10px}
+.p{color:var(--mut);line-height:1.85;max-width:72ch}
+
+.rit{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:24px}
+.rit .r{grid-column:span 4;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:16px;position:relative;overflow:hidden}
+.rit .r b{display:block;font-size:14px;margin-bottom:8px}
+.rit .r p{margin:0;color:var(--mut);line-height:1.8;font-size:13px}
+.rit .r .m{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.chip{background:rgba(31,109,107,.08);border:1px solid rgba(31,109,107,.18);color:var(--fg);padding:7px 10px;border-radius:999px;font-size:12px}
+
+.tabs{margin-top:22px}
+.tabbar{display:flex;gap:10px;flex-wrap:wrap}
+.tabbar button{border:1px solid var(--line);background:rgba(255,255,255,.68);padding:10px 12px;border-radius:999px;cursor:pointer;font:inherit;color:var(--mut)}
+.tabbar button.on{background:var(--acc);color:#fff;border-color:transparent}
+.pane{display:none;margin-top:16px}
+.pane.on{display:block}
+
+.gal{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:24px}
+.gal a{grid-column:span 3;border-radius:18px;overflow:hidden;border:1px solid var(--line);cursor:pointer}
+.gal img{width:100%;height:180px;object-fit:cover;display:block;transform:scale(1.02);transition:transform .35s}
+.gal a:hover img{transform:scale(1.08)}
+
+.team{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:22px}
+.person{grid-column:span 4;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:16px}
+.person b{display:block}
+.person span{color:var(--mut);font-size:12px}
+
+.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.plan{background:rgba(255,255,255,.78);border:1px solid var(--line);border-radius:22px;padding:18px}
+.plan h3{margin:0}
+.plan .price{font-family:var(--fh);font-size:34px;margin-top:8px}
+.plan ul{margin:12px 0 0;padding-left:18px;color:var(--mut);line-height:1.8}
+
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.t{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:16px}
+.t blockquote{margin:0;line-height:1.8;color:var(--fg);font-size:13px}
+.t figcaption{margin-top:10px;color:var(--mut);font-size:12px}
+
+.faqs{display:grid;gap:10px;margin-top:14px}
+.faq{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;background:transparent;border:0;color:var(--fg);padding:14px 16px;cursor:pointer;font-weight:800}
+.faq-q i{font-style:normal;color:var(--mut)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .25s ease}
+.faq-a>div{padding:0 16px 16px;color:var(--mut);line-height:1.8;font-size:13px}
+
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+.box{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:22px;padding:18px}
+.box a{color:var(--fg)}
+.btn{display:inline-block;margin-top:12px;background:var(--acc);color:#fff;text-decoration:none;padding:12px 14px;border-radius:14px;font-weight:900}
+
+/* ---- Layout variants (SPA) ---- */
+.hero.v1{grid-template-columns:1fr;align-items:stretch;padding:0}
+.hero.v1 .blob{display:none}
+.hero.v1 .hcover{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.02)}
+.hero.v1 .hcover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.60))}
+.hero.v1 .hinner{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:14px;align-items:end;padding:128px 6vw 64px}
+.hero.v1 .k,.hero.v1 .sub{color:rgba(255,255,255,.86)}
+.hero.v1 .h1{color:#fff}
+.hero.v1 .book{background:rgba(255,255,255,.92)}
+
+.hero.v2{grid-template-columns:1fr;gap:18px}
+.hero.v2 .hcopy{max-width:80ch}
+.hero.v2 .hstack{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.hero.v2 .hcard{border:1px solid var(--line);border-radius:22px;padding:14px;background:rgba(255,255,255,.70)}
+.hero.v2 .hcard b{display:block}
+.hero.v2 .hcard span{display:block;color:var(--mut);margin-top:6px;line-height:1.7;font-size:13px}
+.hero.v2 .mosaic{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+.hero.v2 .mosaic .m{grid-column:span 4;border-radius:22px;overflow:hidden;border:1px solid var(--line);min-height:220px;background:#ddd}
+.hero.v2 .mosaic img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02)}
+
+.timeline{display:grid;gap:12px;margin-top:22px}
+.titem{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:22px;padding:14px}
+.titem .n{width:34px;height:34px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(31,109,107,.12);border:1px solid rgba(31,109,107,.18);font-weight:950}
+.titem b{display:block}
+.titem p{margin:6px 0 0;color:var(--mut);line-height:1.8;font-size:13px}
+.titem .meta{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+
+.priceTable{display:grid;gap:10px;margin-top:18px}
+.priceRow{display:grid;grid-template-columns:1.2fr .8fr 1fr;gap:10px;align-items:center;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:18px;padding:12px 14px}
+.priceRow b{font-size:13px}
+.priceRow span{color:var(--mut);font-size:12px;line-height:1.6}
+.priceRow i{font-style:normal;font-weight:950;text-align:right}
+
+[data-reveal]{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+[data-reveal].in{opacity:1;transform:none}
+
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.86);display:none;align-items:center;justify-content:center;z-index:200}
+#lb.on{display:flex}
+#lb img{max-width:92vw;max-height:86vh;border-radius:18px;border:1px solid rgba(255,255,255,.25)}
+#lb button{position:absolute;top:18px;right:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:999px;padding:10px 12px;cursor:pointer}
+
+@media (max-width: 980px){
+  .hero{grid-template-columns:1fr;}
+  .himg{min-height:320px}
+  .pricing{grid-template-columns:1fr;}
+  .tgrid{grid-template-columns:1fr;}
+  .contact{grid-template-columns:1fr;}
+  .rit .r{grid-column:span 6}
+  .gal a{grid-column:span 4}
+  .person{grid-column:span 6}
+}
+@media (max-width: 720px){
+  .burger{display:flex}
+  .nav{position:fixed;inset:70px 12px auto 12px;display:none;flex-direction:column;align-items:stretch;background:rgba(255,255,255,.80);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:18px;padding:12px}
+  .nav.open{display:flex}
+}
+
+[data-reveal]{opacity:1;transform:none}
+.js [data-reveal]{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+.js [data-reveal].in{opacity:1;transform:none}
+/* ---- Layout variants (visual diversity) ---- */
+:root{
+  --section-pad: 96px;
+  --btn-r: 14px;
+  --btn-pad-y: 12px;
+  --btn-pad-x: 22px;
+  --card-shadow: 0 18px 50px rgba(0,0,0,.18);
+}
+body.layout-v0{ --section-pad: 88px; --btn-r: 12px; --card-shadow: 0 16px 44px rgba(0,0,0,.18); }
+body.layout-v1{ --section-pad: 110px; --btn-r: 999px; --btn-pad-x: 28px; --card-shadow: 0 22px 70px rgba(0,0,0,.22); }
+body.layout-v2{ --section-pad: 80px; --btn-r: 10px; --card-shadow: 0 12px 30px rgba(0,0,0,.14); }
+body.layout-v3{ --section-pad: 100px; --btn-r: 18px; --card-shadow: 0 20px 60px rgba(0,0,0,.20); }
+body.layout-v4{ --section-pad: 120px; --btn-r: 6px;  --card-shadow: 0 14px 40px rgba(0,0,0,.16); }
+section{ padding-top: var(--section-pad); padding-bottom: var(--section-pad); }
+.btn, .btn-main, .btn-hero, .btn-primary, .bp, .bo{
+  border-radius: var(--btn-r)!important;
+  padding: var(--btn-pad-y) var(--btn-pad-x)!important;
+}
+.card, .tile, .feature, .prop-card, .room-card, .glass, .panel{
+  box-shadow: var(--card-shadow);
+  border-radius: calc(var(--r) + 2px);
+}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Spa du parc", "address": {"@type": "PostalAddress", "streetAddress": "PJ43+QQM, Angle Boulevard De Fes, Bd Mohamed Zerktouni, Mohammedia 20800", "addressLocality": "Mohammedia", "addressCountry": "MA"}, "telephone": "+212523315974", "openingHours": "Lun–Sam 9h–20h"}</script></head><body id="top" data-seed=\"1902381651\"><header><a class="logo" href="#top">Spa du parc</a><button class="burger" data-burger aria-label="Menu" aria-expanded="false"><span></span><span></span></button><nav class="nav" data-nav><a href="#contact">Réserver</a><a href="#rituels">Rituels</a><a href="#tarifs">Forfaits</a><a href="#equipe">Équipe</a><a href="#avis">Avis</a><a class="navcta" href="#contact">Contact</a></nav></header><section class="hero v2"><div class="blob" aria-hidden="true"></div><div class="hcopy"><div class="k">hammam · Mohammedia</div><h1 class="h1" data-reveal>Rituels &amp; détente à Mohammedia</h1><p class="sub" data-reveal>Un moment de calme, des gestes précis, et une atmosphère pensée dans les moindres détails.</p><div class="hstack" data-reveal><div class="hcard"><b>Hygiène</b><span>Matériel propre, gestes maîtrisés, confort.</span></div><div class="hcard"><b>Réservation</b><span>Réponse rapide sur WhatsApp selon disponibilité.</span></div></div><div style="margin-top:18px" data-reveal><a class="btn" href="#contact">Réserver</a></div></div><div class="mosaic"><div class="m" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepS4fwWIsKukOMnOIVop6cySRQsD_XE_YM0ciUHa1DRQ-3xqwBPOmT6QoOeWOSGU-lPY60oMATzbwJAlxeNM7D7TiIcAcrU3mRmFrUaxhpRNADqddxQrN8s87mwHL87Po452djN7ZbjrY4D=w1200-h800-p-k-no" alt="Spa du parc photo 1" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div><div class="m" data-reveal><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" alt="Spa du parc photo 2" data-fb="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div><div class="m" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepS4fwWIsKukOMnOIVop6cySRQsD_XE_YM0ciUHa1DRQ-3xqwBPOmT6QoOeWOSGU-lPY60oMATzbwJAlxeNM7D7TiIcAcrU3mRmFrUaxhpRNADqddxQrN8s87mwHL87Po452djN7ZbjrY4D=w1200-h800-k-no" alt="Spa du parc photo 3" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></div><div class="book" data-reveal><h3>Réservation</h3><label>Date</label><input type="date"><label>Rituel</label><select><option>Rituel</option><option>Hygiene</option><option>Gommage</option><option>Massage</option></select><label>Nom</label><input placeholder="Votre nom"><button type="button" onclick="location.href='#contact'">Demander</button></div></section><section id="rituels"><div class="wrap"><h2 class="h2">Rituels signature</h2><p class="p">Des gestes traditionnels, une hygiène irréprochable, et une expérience conçue pour durer.</p><div class="tabs" data-tabs><div class="tabbar"><button type="button" data-tab="rituels">Rituels</button><button type="button" data-tab="massages">Massages</button><button type="button" data-tab="forfaits">Forfaits</button></div><div class="pane" data-pane="rituels"><div class="rit"><article class="r" data-reveal><b>Hammam traditionnel</b><p>Savon beldi, vapeur, gommage, detente.</p><div class="m"><span class="chip">60-90 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Gommage</b><p>Peau douce et nette, geste precis.</p><div class="m"><span class="chip">30 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Massage relaxant</b><p>Pressions lentes, detente profonde.</p><div class="m"><span class="chip">60 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Soin visage</b><p>Nettoyage, hydratation, eclat.</p><div class="m"><span class="chip">45-60 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Forfaits duo</b><p>Rituel en duo, parfait a offrir.</p><div class="m"><span class="chip">Cadeau</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Rituel signature</b><p>Experience complete, sur reservation.</p><div class="m"><span class="chip">120 min</span><span class="chip">Réservation</span></div></article></div></div><div class="pane" data-pane="massages"><div class="rit"><article class="r" data-reveal><b>Hammam traditionnel</b><p>Savon beldi, vapeur, gommage, detente.</p><div class="m"><span class="chip">60-90 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Gommage</b><p>Peau douce et nette, geste precis.</p><div class="m"><span class="chip">30 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Massage relaxant</b><p>Pressions lentes, detente profonde.</p><div class="m"><span class="chip">60 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Soin visage</b><p>Nettoyage, hydratation, eclat.</p><div class="m"><span class="chip">45-60 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Forfaits duo</b><p>Rituel en duo, parfait a offrir.</p><div class="m"><span class="chip">Cadeau</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Rituel signature</b><p>Experience complete, sur reservation.</p><div class="m"><span class="chip">120 min</span><span class="chip">Réservation</span></div></article></div></div><div class="pane" data-pane="forfaits"><div class="rit"><article class="r" data-reveal><b>Hammam traditionnel</b><p>Savon beldi, vapeur, gommage, detente.</p><div class="m"><span class="chip">60-90 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Gommage</b><p>Peau douce et nette, geste precis.</p><div class="m"><span class="chip">30 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Massage relaxant</b><p>Pressions lentes, detente profonde.</p><div class="m"><span class="chip">60 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Soin visage</b><p>Nettoyage, hydratation, eclat.</p><div class="m"><span class="chip">45-60 min</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Forfaits duo</b><p>Rituel en duo, parfait a offrir.</p><div class="m"><span class="chip">Cadeau</span><span class="chip">Réservation</span></div></article><article class="r" data-reveal><b>Rituel signature</b><p>Experience complete, sur reservation.</p><div class="m"><span class="chip">120 min</span><span class="chip">Réservation</span></div></article></div></div></div></div></section><section id="tarifs"><div class="wrap"><h2 class="h2">Forfaits</h2><p class="p">Des formules claires, adaptées à votre temps et vos envies.</p><div class="pricing"><div class="plan" data-reveal><h3>Essentiel</h3><div class="price">à partir de 250 MAD</div><ul><li>Hammam + gommage</li><li>Thé à la menthe</li><li>Durée 60 min</li></ul></div><div class="plan" data-reveal><h3>Premium</h3><div class="price">à partir de 450 MAD</div><ul><li>Rituel complet</li><li>Massage 30 min</li><li>Durée 90 min</li></ul></div><div class="plan" data-reveal><h3>Signature</h3><div class="price">à partir de 650 MAD</div><ul><li>Rituel + massage</li><li>Soin visage</li><li>Durée 120 min</li></ul></div></div></div></section><section id="equipe"><div class="wrap"><h2 class="h2">L'équipe</h2><p class="p">Des praticiennes formées, des gestes sûrs, et une approche douce.</p><div class="team"><div class="person" data-reveal><b>Samira</b><span>Rituels traditionnels</span></div><div class="person" data-reveal><b>Imane</b><span>Soins visage</span></div><div class="person" data-reveal><b>Noura</b><span>Massages</span></div></div></div></section><section id="experience"><div class="wrap"><h2 class="h2">Ambiance</h2><p class="p">Cliquez pour agrandir.</p><div class="gal"><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepS4fwWIsKukOMnOIVop6cySRQsD_XE_YM0ciUHa1DRQ-3xqwBPOmT6QoOeWOSGU-lPY60oMATzbwJAlxeNM7D7TiIcAcrU3mRmFrUaxhpRNADqddxQrN8s87mwHL87Po452djN7ZbjrY4D=w1200-h800-k-no" href="javascript:void(0)" aria-label="Voir photo 1" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepS4fwWIsKukOMnOIVop6cySRQsD_XE_YM0ciUHa1DRQ-3xqwBPOmT6QoOeWOSGU-lPY60oMATzbwJAlxeNM7D7TiIcAcrU3mRmFrUaxhpRNADqddxQrN8s87mwHL87Po452djN7ZbjrY4D=w1200-h800-k-no" alt="Spa du parc photo 1" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqz0jevVaB6_WAc8Q40vw6FAq0Ih_B2hviPZOSFuJ89uC9u_RDQmxpg8yzf7v0covLszk_P08kFl2juh1-0j48GS38JXq2ddKO0aMO0ZYVF2RM7GNEdvZC1vd2AVUQPj0PQh44lWRg7As3P=w1200-h800-k-no" href="javascript:void(0)" aria-label="Voir photo 2" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqz0jevVaB6_WAc8Q40vw6FAq0Ih_B2hviPZOSFuJ89uC9u_RDQmxpg8yzf7v0covLszk_P08kFl2juh1-0j48GS38JXq2ddKO0aMO0ZYVF2RM7GNEdvZC1vd2AVUQPj0PQh44lWRg7As3P=w1200-h800-k-no" alt="Spa du parc photo 2" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/a/ACg8ocJ0Hnd15F36IWXKdpBzg-Bs5nsMMCWo3_YcriI8p6vu-8pFIA=w1200-h800-p-rp-mo-ba4-br100" href="javascript:void(0)" aria-label="Voir photo 3" data-reveal><img src="https://lh3.googleusercontent.com/a/ACg8ocJ0Hnd15F36IWXKdpBzg-Bs5nsMMCWo3_YcriI8p6vu-8pFIA=w1200-h800-p-rp-mo-ba4-br100" alt="Spa du parc photo 3" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/a-/ALV-UjUANtZBcQESbeHmjpjMSK06v5S_inQOMOvfWAsrcqac4u9dhPQ=w1200-h800-p-rp-mo-br100" href="javascript:void(0)" aria-label="Voir photo 4" data-reveal><img src="https://lh3.googleusercontent.com/a-/ALV-UjUANtZBcQESbeHmjpjMSK06v5S_inQOMOvfWAsrcqac4u9dhPQ=w1200-h800-p-rp-mo-br100" alt="Spa du parc photo 4" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/a-/ALV-UjWqUTvpvJeZhPjLyNvM4zsW4HVPAWvUAYelA-IBstWePff3lBWF=w1200-h800-p-rp-mo-ba3-br100" href="javascript:void(0)" aria-label="Voir photo 5" data-reveal><img src="https://lh3.googleusercontent.com/a-/ALV-UjWqUTvpvJeZhPjLyNvM4zsW4HVPAWvUAYelA-IBstWePff3lBWF=w1200-h800-p-rp-mo-ba3-br100" alt="Spa du parc photo 5" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://images.unsplash.com/photo-1540555700478-4be290a5f85c?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" href="javascript:void(0)" aria-label="Voir photo 6" data-reveal><img src="https://images.unsplash.com/photo-1540555700478-4be290a5f85c?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" alt="Spa du parc photo 6" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://images.unsplash.com/photo-1600334129128-685c5bf6d54a?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" href="javascript:void(0)" aria-label="Voir photo 7" data-reveal><img src="https://images.unsplash.com/photo-1600334129128-685c5bf6d54a?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" alt="Spa du parc photo 7" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" href="javascript:void(0)" aria-label="Voir photo 8" data-reveal><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" alt="Spa du parc photo 8" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#e5df49%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#73638d%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#3d0511%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3ESpa%20du%20parc%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a></div></div></section><section id="avis"><div class="wrap"><h2 class="h2">Avis</h2><div class="tgrid"><figure class="t" data-reveal><blockquote>Gommage + soin: peau douce, résultat visible, sans stress.</blockquote><figcaption><b>Hamza A.</b><span>Mohammedia</span></figcaption></figure><figure class="t" data-reveal><blockquote>Réservation simple, ponctualité, et une vraie sensation de calme.</blockquote><figcaption><b>Anas M.</b><span>Mohammedia</span></figcaption></figure><figure class="t" data-reveal><blockquote>Un vrai moment de pause à Mohammedia.</blockquote><figcaption><b>Amina R.</b><span>Fès</span></figcaption></figure></div></div></section><section id="faq"><div class="wrap"><h2 class="h2">FAQ</h2><div class="faqs"><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Bon cadeau ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Oui, bons cadeaux utilisables sur tous les rituels.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Annulation ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Modification possible jusqu&#x27;à 24h avant, selon disponibilité.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Hammam mixte ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Selon créneaux. Contactez-nous pour les horaires exacts.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Hygiène ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Matériel et espaces désinfectés entre chaque client.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Produits ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Produits adaptés à votre peau. Dites-nous si vous avez une sensibilité.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Quelle tenue prévoir ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Tout est fourni (serviette, peignoir). Venez simplement comme vous êtes.</div></div></div></div></div></section><section id="contact"><div class="wrap"><h2 class="h2">Contact &amp; réservation</h2><div class="contact"><div class="box" data-reveal><b>Spa du parc</b><div style="margin-top:6px;color:var(--mut);line-height:1.8">PJ43+QQM, Angle Boulevard De Fes, Bd Mohamed Zerktouni, Mohammedia 20800<br>Mohammedia</div><a class="btn" href="https://wa.me/212523315974?text=Bonjour,%20je%20voudrais%20plus%20d&#x27;informations." target="_blank" rel="noopener">WhatsApp</a></div><div class="box" data-reveal><div><b>Téléphone</b><div style="color:var(--mut)">+212523315974</div></div><div style="margin-top:10px"><a href="https://www.google.com/maps/search/PJ43+QQM,+Angle+Boulevard+De+Fes,+Bd+Mohamed+Zerktouni,+Mohammedia+20800" target="_blank" rel="noopener">Itinéraire Google Maps</a></div></div></div></div></section><footer style="padding:34px 6vw;color:var(--mut);border-top:1px solid var(--line)"><div class="wrap">© 2026 Spa du parc · Mohammedia</div></footer><div id="lb" aria-hidden="true"><button type="button" aria-label="Fermer">Fermer</button><img alt="Agrandissement"></div><script>
+(function(){
+  try{
+    // Only enable JS-scoped animations if this script runs correctly.
+    // If anything throws later, we remove the class so the page stays readable.
+    document.documentElement.classList.add('js');
+
+    const q = (s,el=document)=>el.querySelector(s);
+    const qa = (s,el=document)=>Array.from(el.querySelectorAll(s));
+
+    // Layout fingerprint (per-business visual variation without breaking templates)
+    try{
+      const title = document.title || '';
+      const meta = q('meta[name="description"]');
+      const desc = meta && meta.content ? meta.content : '';
+      const body = document.body;
+      let seed = '';
+      if(body && body.dataset && body.dataset.seed){ seed = String(body.dataset.seed); }
+      if(!seed){ seed = (title + '|' + desc).slice(0, 300); }
+      let h = 0;
+      for(let i=0;i<seed.length;i++){ h = ((h<<5)-h) + seed.charCodeAt(i); h |= 0; }
+      const v = Math.abs(h) % 5;
+      const cls = 'layout-v' + v;
+      if(body){
+        body.classList.add(cls);
+        body.dataset.layout = cls;
+      }
+      // Section order shuffle (keeps hero first, contact last)
+      try{
+        const main = q('main');
+        if(main){
+          const sections = Array.from(main.querySelectorAll('section'));
+          if(sections.length > 3){
+            const hero = sections[0];
+            const rest = sections.slice(1);
+            const tailIds = ['contact','rdv','reservation','booking','devis'];
+            const middle = [];
+            const tail = [];
+            rest.forEach(s=>{
+              const id = (s.getAttribute('id')||'').toLowerCase();
+              if(tailIds.includes(id)) tail.push(s);
+              else middle.push(s);
+            });
+            let seedNum = Math.abs(h) || 123456;
+            const rnd = ()=>{ seedNum = (seedNum * 1664525 + 1013904223) >>> 0; return seedNum / 4294967296; };
+            for(let i=middle.length-1;i>0;i--){
+              const j = Math.floor(rnd()*(i+1));
+              const tmp = middle[i]; middle[i]=middle[j]; middle[j]=tmp;
+            }
+            const ordered = [hero, ...middle, ...tail];
+            ordered.forEach(el=>main.appendChild(el));
+          }
+        }
+      }catch(_e){}
+    }catch(_e){}
+
+    // Mobile nav
+    const burger = q('[data-burger]');
+    const nav = q('[data-nav]');
+    if(burger && nav){
+      burger.addEventListener('click', ()=>{
+        nav.classList.toggle('open');
+        burger.setAttribute('aria-expanded', nav.classList.contains('open') ? 'true':'false');
+      });
+      qa('a[href^="#"]', nav).forEach(a=>a.addEventListener('click', ()=>{
+        nav.classList.remove('open');
+        burger.setAttribute('aria-expanded','false');
+      }));
+    }
+
+    // Reveal on scroll (safe fallback if IntersectionObserver isn't available)
+    const reveals = qa('[data-reveal]');
+    if(reveals.length){
+      if('IntersectionObserver' in window){
+        const io = new IntersectionObserver((entries)=>{
+          entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); });
+        }, {threshold: 0.12});
+        reveals.forEach(el=>io.observe(el));
+      }else{
+        reveals.forEach(el=>el.classList.add('in'));
+      }
+    }
+
+    // Accordions
+    qa('[data-acc]').forEach(acc=>{
+      acc.addEventListener('click', ()=>{
+        const item = acc.closest('[data-acc-item]');
+        const opened = item.classList.toggle('open');
+        const panel = q('[data-acc-panel]', item);
+        if(panel){ panel.style.maxHeight = opened ? panel.scrollHeight+'px' : '0px'; }
+      });
+    });
+
+    // Tabs
+    qa('[data-tabs]').forEach(root=>{
+      const btns = qa('[data-tab]', root);
+      const panes = qa('[data-pane]', root);
+      const activate = (id)=>{
+        btns.forEach(b=>b.classList.toggle('on', b.getAttribute('data-tab')===id));
+        panes.forEach(p=>p.classList.toggle('on', p.getAttribute('data-pane')===id));
+      };
+      btns.forEach(b=>b.addEventListener('click', ()=>activate(b.getAttribute('data-tab'))));
+      if(btns[0]) activate(btns[0].getAttribute('data-tab'));
+    });
+
+    // Lightbox
+    const lb = q('#lb');
+    const lbImg = q('#lb img');
+    const lbClose = q('#lb button');
+    if(lb && lbImg){
+      qa('[data-lb]').forEach(el=>{
+        el.addEventListener('click', ()=>{
+          const im = el.querySelector('img');
+          const src = (im && (im.currentSrc || im.src)) || el.getAttribute('data-lb');
+          if(!src) return;
+          lbImg.src = src;
+          lb.classList.add('on');
+        });
+      });
+      const close = ()=>{ lb.classList.remove('on'); lbImg.src=''; };
+      if(lbClose) lbClose.addEventListener('click', close);
+      lb.addEventListener('click', (e)=>{ if(e.target===lb) close(); });
+      document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') close(); });
+    }
+
+    // Image fallback (when a remote image is blocked/expired)
+    // Supports multiple fallbacks via: data-fb="url1|url2"
+    qa('img[data-fb]').forEach(img=>{
+      const raw = (img.getAttribute('data-fb')||'').trim();
+      if(!raw) return;
+      const list = raw.split('|').map(s=>s.trim()).filter(Boolean);
+      if(!list.length) return;
+      img.addEventListener('error', ()=>{
+        let i = parseInt(img.getAttribute('data-fbi')||'0', 10);
+        while(i < list.length && (!list[i] || list[i] === img.getAttribute('src'))){ i++; }
+        if(i >= list.length) return;
+        img.setAttribute('data-fbi', String(i+1));
+        img.src = list[i];
+      });
+    });
+
+    // Background image fallback (hero/media blocks)
+    // Usage: <div class="hbg" data-bg="url1|url2|..."></div>
+    // We probe URLs sequentially with an Image() to detect failures, then set backgroundImage.
+    qa('[data-bg]').forEach(el=>{
+      const raw = (el.getAttribute('data-bg')||'').trim();
+      if(!raw) return;
+      const list = raw.split('|').map(s=>s.trim()).filter(Boolean);
+      if(!list.length) return;
+      let idx = 0;
+      const setBg = (u)=>{
+        const safe = String(u||'').replace(/['"]/g, (m)=> m==="'" ? "%27" : "%22");
+        el.style.backgroundImage = "url('" + safe + "')";
+      };
+      // Paint something immediately; if it fails, the probe will replace it.
+      try{ if(!el.style.backgroundImage) setBg(list[0]); }catch(e){}
+      const probe = ()=>{
+        if(idx >= list.length) return;
+        const u = list[idx++];
+        if(!u) return probe();
+        const img = new Image();
+        img.onload = ()=>{ try{ setBg(u); }catch(e){} };
+        img.onerror = ()=>{ probe(); };
+        img.src = u;
+      };
+      probe();
+    });
+
+    // Header shadow on scroll
+    const header = q('header');
+    if(header){
+      const onScroll = ()=>header.classList.toggle('sc', window.scrollY>8);
+      window.addEventListener('scroll', onScroll, {passive:true});
+      onScroll();
+    }
+  }catch(e){
+    try{ document.documentElement.classList.remove('js'); }catch(_e){}
+  }
+})();
+</script></body></html>
